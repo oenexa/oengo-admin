@@ -6,7 +6,7 @@ import {
   DisputeStatus,
   RegionalVolumeSummary,
 } from '../domain/types';
-import { CloudEvent } from '@oenexa/event-schemas';
+import { CloudEvent } from '../domain/events.js';
 
 export class CommerceAdminService {
   private applications: Map<string, MerchantKYBApplication> = new Map();
